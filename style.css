@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300;800&display=swap');
+
+/*root styles*/
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+body{
+    background-image: url("assets/background-adv.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/*sidebar styles*/
+.sidebar{
+    background-color: rgba(217,217,217,0.7);
+    max-width: 300px;
+    position: absolute;
+    right: 2vw;
+    bottom: 10vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 30px 50px 30px 30px;
+    line-height: 32px;
+}
+
+.sidebar ul{
+    list-style: none;
+    padding: 0;
+    text-align: right;
+}
+
+/*central main content styles*/
+.main-content{
+    position: absolute;
+    bottom: 10vh;
+    left: 0;
+    margin-left: 32px;
+}
+
+.main-content h1{
+    font-size: 15vw;
+    font-weight: bold;
+    line-height: 10vw;
+    color: #00994d;
+    text-shadow: 8px 4px 10px rgba(0,26,13,0.6);
+}
+
+.main-content h2{
+    font-weight: bold;
+    font-size: 8vw;
+    text-shadow: 4px 4px 8px rgba(0,0,0,0.8);
+}
